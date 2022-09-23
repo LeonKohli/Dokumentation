@@ -32,5 +32,5 @@ Cheat-Sheets: http://www.cheat-sheets.org/
 
 Suchmaschiene: https://metager.de/
 
-GitHub:GitHub.com
+GitHub: https://GitHub.com
 
