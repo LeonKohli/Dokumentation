@@ -1,0 +1,8 @@
+altes_lager
+build
+*.exe
+*#
+*~
+\.
+env
+MeineDoku.docset
