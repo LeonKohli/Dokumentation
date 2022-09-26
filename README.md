@@ -1,5 +1,5 @@
 
-![Logo](https://raw.githubusercontent.com/LeonKohli/Dokumentation/main/source/img/p22matelogo.jpg?token=GHSAT0AAAAAABZDXG3NJZJ5IKUNXUES6SYGYZNU3FQ)
+![Logo](https://i.ibb.co/FXFpvz6/p22matelogo.jpg)
 
 
 # Dokumentation ZIT
