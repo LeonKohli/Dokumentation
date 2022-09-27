@@ -12,6 +12,12 @@ September 2022
      - GIT und HTML
    * - 22.09
      - Tabellenausrichtung und Bilder
+   * - 23.09
+     - Docset Export nach Zeal (Offline)
+   * - 26.09
+     - Projektmanagement Grundlagen und Entscheidungsmatrix
+   * - 27.09
+     - Projektmanagement und Zeiteinteilung mit einem Netzplan 
 
 
 
