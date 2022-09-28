@@ -16,7 +16,8 @@ MeineDoku
 
    ueberblick
    emacs/emacs-basics
-   software/index   
+   software/index
+   latexpdf/index  
    wihgh/index
    projektmanagement/index
    glossar
