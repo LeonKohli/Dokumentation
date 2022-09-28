@@ -14,20 +14,20 @@ Aus der Sphinx Doku eine PDF erstellen
 Installation
 --------------------- 
 
-| Auf Windows
+| Auf Windows 
 | -PERL installieren
-|    https://strawberryperl.com/
+|   https://strawberryperl.com/
 | -MikTeX Package Manager installieren
-|    https://miktex.org/download
+|   https://miktex.org/download
 |   -in der GUI unter 'Pakete' latexmk installieren
-|      -Im ZIT muss ein Proxy gesetzt werden -> Ändern und Verbindungseinstellungen
+|   -Im ZIT muss ein Proxy gesetzt werden -> Ändern und Verbindungseinstellungen
 ::
     
       10.128.9.30:80
 
 
 latexmk ausführen
------------------ 
+-----------------  
 
 latexmk ist ein cmd programm und läuft in der Konsole
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=pdflatex 2022.9.28)  28 SEP 2022 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.7) (preloaded format=latex 2022.9.28)  28 SEP 2022 14:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -41,10 +41,13 @@ Package: inputenc 2021/02/14 v1.3d Input encoding file
 
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-)
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+
+
+Package cmap Warning: pdftex in DVI mode - exiting.
+
+) (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-<<t1.cmap>>)
+)
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
 \@mathmargin=\skip49
@@ -195,16 +198,15 @@ Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 g
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Driver file: dvips.def on input line 227.
 
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.d
-ef
-File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\dvips.de
+f
+File: dvips.def 2017/06/20 v3.1d Graphics/color driver for dvips
 )
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex-dev/graphics\mathcolo
 r.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
@@ -327,7 +329,7 @@ Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 .cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: dvips.def on input line 107.
 )
 \Gin@req@height=\dimen166
 \Gin@req@width=\dimen167
@@ -551,7 +553,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode is ignored in DVI mode.
 )
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefi
 nekeys.sty
@@ -652,10 +654,30 @@ package with kernel methods
 \c@Item=\count308
 \c@Hfootnote=\count309
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
+Package hyperref Info: Driver (default): hdvips.
 
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2022-06-20 v7.00s Hyperref driver for pdfTeX
+(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hdvips.def
+File: hdvips.def 2022-06-20 v7.00s Hyperref driver for dvips
+
+(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pdfmark.def
+File: pdfmark.def 2022-06-20 v7.00s Hyperref definitions for pdfmark specials
+
+
+Package hyperref Warning: You have enabled option `breaklinks'.
+(hyperref)                But driver `hdvips.def' does not suppport this.
+(hyperref)                Expect trouble with the link areas of broken links.
+
+\pdf@docset=\toks33
+\pdf@box=\box119
+\pdf@toks=\toks34
+\pdf@defaulttoks=\toks35
+\HyField@AnnotCount=\count310
+\Fld@listcount=\count311
+\c@bookmark@seq@number=\count312
+
+(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
+ilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.st
 y
@@ -663,13 +685,6 @@ Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count310
-\c@bookmark@seq@number=\count311
-
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunf
-ilecheck.sty
-Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
-
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniqu
 ecounter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
@@ -678,7 +693,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 85.
 )
 \Hy@SectionHShift=\skip83
-)
+))
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/oberdiek\hypcap.sty
 Package: hypcap 2016/05/16 v1.12 Adjusting the anchors of captions (HO)
 )
@@ -695,11 +710,16 @@ LaTeX Font Info:    Trying to load font information for T1+qtm on input line 72
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qtm.fd
 File: t1qtm.fd 2009/09/25 v1.2 font definition file for T1/qtm
 )
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-p
-dftex.def
-File: l3backend-pdftex.def 2022-07-01 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
-\l__pdf_internal_box=\box119
+(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-d
+vips.def
+File: l3backend-dvips.def 2022-07-01 L3 backend support: dvips
+\l__pdf_internal_box=\box120
+\g__pdf_backend_object_int=\count313
+\l__pdf_backend_content_box=\box121
+\l__pdf_backend_model_box=\box122
+\g__pdf_backend_annotation_int=\count314
+\g__pdf_backend_link_int=\count315
+\g__pdf_backend_link_sf_int=\count316
 ) (meinedoku.aux)
 \openout1 = `meinedoku.aux'.
 
@@ -721,38 +741,12 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 72.
 LaTeX Font Info:    ... okay on input line 72.
-
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.
-mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen272
-\scratchbox=\box120
-\nofMPsegments=\count314
-\nofMParguments=\count315
-\everyMPshowfont=\toks33
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen273
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
-\everyMPtoPDFconversion=\toks34
-)
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf
--base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys
-.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
-\c@literalblock=\count319
+\c@literalblock=\count317
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: dvips
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: dvips
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -794,7 +788,7 @@ LaTeX Font Info:    Trying to load font information for T1+qhv on input line 80
 
 (C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
-)<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 80.
 
 
@@ -809,11 +803,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 [1
 
-{C:/Users/user806/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+] [2
 
 
-]
-(meinedoku.toc)
+] (meinedoku.toc)
 \tf@toc=\write6
 \openout6 = `meinedoku.toc'.
 
@@ -822,105 +815,32 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ] [2
 
 ]
-<hausboot.jpg, id=181, 2290.5575pt x 1495.5875pt>
-LaTeX Font Info:    Trying to load font information for T1+txtt on input line 9
-0.
 
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\t1txtt.fd
-File: t1txtt.fd 2000/12/15 v3.1
-)
-File: hausboot.jpg Graphic file (type jpg)
-<use hausboot.jpg>
-Package pdftex.def Info: hausboot.jpg  used on input line 90.
-(pdftex.def)             Requested size: 450.93842pt x 294.43393pt.
+! LaTeX Error: Cannot determine size of graphic in hausboot.jpg (no BoundingBox
+).
 
-[1 <./hausboot.jpg>] [2
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.90 ...dent\sphinxincludegraphics{{hausboot}.jpg}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.90 ...dent\sphinxincludegraphics{{hausboot}.jpg}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-]
-Kapitel 1.
-<workflow.png, id=191, 542.77782pt x 633.11531pt>
-File: workflow.png Graphic file (type png)
-<use workflow.png>
-Package pdftex.def Info: workflow.png  used on input line 102.
-(pdftex.def)             Requested size: 469.76967pt x 547.97533pt.
-[3] [4 <./workflow.png>]
-Kapitel 2.
-[5
-
-] [6]
-Kapitel 3.
-LaTeX Font Info:    Font shape `T1/txtt/m/it' in size <10> not available
-(Font)              Font shape `T1/txtt/m/sl' tried instead on input line 266.
-LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 278.
-[7
-
-] [8]
-LaTeX Font Info:    Trying to load font information for TS1+txtt on input line 
-389.
-
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/txfonts\ts1txtt.fd
-File: ts1txtt.fd 2000/12/15 v3.1
-)
-LaTeX Font Info:    Font shape `TS1/txtt/m/it' in size <10> not available
-(Font)              Font shape `TS1/txtt/m/sl' tried instead on input line 410.
-
-
-[9] [10] [11] [12
-
-]
-Kapitel 4.
-[13] [14
-
-]
-Kapitel 5.
-[15] [16
-
-]
-Kapitel 6.
-[17] [18
-
-]
-Kapitel 7.
-LaTeX Font Info:    Trying to load font information for TS1+qtm on input line 6
-81.
-(C:\Users\user806\AppData\Local\Programs\MiKTeX\tex/latex/tex-gyre\ts1qtm.fd
-File: ts1qtm.fd 2009/09/25 v1.2 font definition file for TS1/qtm
-)
-(meinedoku.ind [19] [20
-
-] [21
-
-
-]) (meinedoku.aux)
-Package rerunfilecheck Info: File `meinedoku.out' has not changed.
-(rerunfilecheck)             Checksum: 1E16CCD02F184EF59AF62385D59B0236;4617.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 15381 strings out of 478338
- 258129 string characters out of 2835756
- 609928 words of memory out of 3000000
- 33355 multiletter control sequences out of 15000+600000
- 524005 words of font info for 74 fonts, out of 8000000 for 9000
+ 14607 strings out of 478339
+ 246337 string characters out of 2835782
+ 555194 words of memory out of 3000000
+ 32734 multiletter control sequences out of 15000+600000
+ 505916 words of font info for 54 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
- 70i,11n,76p,575b,566s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-ts
-1.enc}{C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.e
-nc}{C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/tex-gyre/q-e
-c.enc}<C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/type1/public/tex-gy
-re/qhvb.pfb><C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-tex-gyre/qhvbi.pfb><C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/tex-gyre/qhvr.pfb><C:/Users/user806/AppData/Local/Programs/MiKTeX/fonts/
-type1/public/tex-gyre/qtmb.pfb><C:/Users/user806/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/tex-gyre/qtmr.pfb><C:/Users/user806/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/txfonts/t1xbtt.pfb><C:/Users/user806/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/user806/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/user806/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/txfonts/tcxtt.pfb><C:/Users/user806
-/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb>
-Output written on meinedoku.pdf (25 pages, 865614 bytes).
-PDF statistics:
- 352 PDF objects out of 1000 (max. 8388607)
- 65 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 70i,11n,76p,3312b,512s stack positions out of 10000i,1000n,20000p,200000b,80000s
+Output written on meinedoku.dvi (4 pages, 4580 bytes).
