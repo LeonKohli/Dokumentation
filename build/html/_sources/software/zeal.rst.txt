@@ -35,4 +35,3 @@ Installation
 
 | Von HTML (Sphinx) zu Docset (Zeal/Dash)
 | Nutze C:/home/dokus/leon/env/Scripts/doc2dash
-
